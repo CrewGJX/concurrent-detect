@@ -1,0 +1,9 @@
+external:
+  project:
+    name: dsmc-server
+    baseDir: /Users/gongjiexin/IdeaProjects/ISMS/${external.project.name}
+    libPath: /Users/gongjiexin/.m2/repository/org/springframework/spring-core/4.3.12.RELEASE/spring-core-4.3.7.RELEASE.jar,/Users/gongjiexin/.m2/repository/javax/servlet/javax.servlet-api/4.0.0/javax.servlet-api-4.0.0.jar
+    libPrefix: csmf-
+
+output:
+  filepath: /Users/gongjiexin
