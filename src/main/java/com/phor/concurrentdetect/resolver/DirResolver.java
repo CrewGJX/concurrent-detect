@@ -1,5 +1,8 @@
 package com.phor.concurrentdetect.resolver;
 
+import java.io.File;
+import java.util.Set;
+
 public abstract class DirResolver implements Resolver{
-    public abstract void resolverDir(String path);
+    public abstract Set<Class<?>> resolverDir(File path);
 }

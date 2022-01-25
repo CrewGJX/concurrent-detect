@@ -7,7 +7,7 @@ import java.util.function.Predicate;
 @Component
 public class SimpleClassFilter extends ClassFilter {
     @Override
-    public void filter(Class<?> clazz, Predicate<Class<?>>... optional) {
+    public void filter(Class<?> clazz, Predicate<Class<?>> optional) {
 
     }
 }
